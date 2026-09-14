@@ -1,9 +1,8 @@
 package com.ccs.chess.model;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.Test;
 
 class BoardTest {
     @Test
@@ -16,6 +15,11 @@ class BoardTest {
 
     @Test
     void dimensionsMustBePositive() {
-        assertThrows(IllegalArgumentException.class, () -> new Board(0, 8));
+       IllegalArgumentException exception = assertThrows(
+        IllegalArgumentException.class,
+        () -> new Board(0, 8)
+);
+
+assertEquals("Board dimensions must be positive", exception.getMessage());
     }
 }
