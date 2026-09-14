@@ -1,0 +1,6 @@
+com\ccs\chess\networking\GameTransport.class
+com\ccs\chess\model\Board.class
+com\ccs\chess\ui\ChessApplication.class
+com\ccs\chess\game\ChessGame.class
+com\ccs\chess\backend\SessionManager.class
+com\ccs\chess\ai\MoveProvider.class
