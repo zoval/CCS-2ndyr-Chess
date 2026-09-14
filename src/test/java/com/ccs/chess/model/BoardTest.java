@@ -25,3 +25,4 @@ assertEquals("Board dimensions must be positive", exception.getMessage());
 }
 // for ronniel only, run using $env:JAVA_HOME="C:\Users\Admin\AppData\Local\jdks\jdk-25.0.2"
 //& "C:\Users\Admin\.maven\maven-3.9.15\bin\mvn.cmd" javafx:run
+// for other persons mvn javafx:run or mvn clean compile
