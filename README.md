@@ -6,7 +6,7 @@ incrementally.
 
 ## Prerequisites
 
-- JDK 17 or newer
+- JDK 25 or newer
 - Apache Maven 3.9 or newer
 
 JavaFX is supplied through Maven, so no separate JavaFX SDK installation is required.
