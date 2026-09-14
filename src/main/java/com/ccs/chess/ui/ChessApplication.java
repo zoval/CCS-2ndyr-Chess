@@ -1,6 +1,7 @@
 package com.ccs.chess.ui;
 
 import com.ccs.chess.game.ChessGame;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
