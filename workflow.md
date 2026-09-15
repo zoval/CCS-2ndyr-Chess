@@ -11,7 +11,7 @@ This project is a JavaFX chess game. Each team should build inside its assigned 
 - Run `mvn clean test` before asking for review.
 - If a change touches another team's package, coordinate first and document the contract in code or tests.
 
-## Model Team
+## Model Team - Team Sulasok
 
 Package: `src/main/java/com/ccs/chess/model`
 
@@ -30,7 +30,7 @@ First milestones:
 - Extend `Board` from dimensions only into board state.
 - Test valid board setup and invalid coordinates.
 
-## Game Rules Team
+## Game Rules Team - Team Rene Baterbonia
 
 Package: `src/main/java/com/ccs/chess/game`
 
@@ -50,7 +50,7 @@ First milestones:
 - Implement basic turn switching and piece movement.
 - Add tests for pawn, rook, bishop, knight, queen, and king movement.
 
-## UI Team
+## UI Team - Team Sulasok
 
 Package: `src/main/java/com/ccs/chess/ui`
 
@@ -70,7 +70,7 @@ First milestones:
 - Add click handling for selecting and moving pieces.
 - Add basic CSS or JavaFX styling for light and dark squares.
 
-## AI Team
+## AI Team - Team Michelin Stars
 
 Package: `src/main/java/com/ccs/chess/ai`
 
@@ -89,7 +89,7 @@ First milestones:
 - Add a random move provider once legal move generation exists.
 - Add tests for move selection when legal moves are available and unavailable.
 
-## Networking Team
+## Networking Team - Team Michelin Stars
 
 Package: `src/main/java/com/ccs/chess/networking`
 
@@ -108,7 +108,7 @@ First milestones:
 - Add an in-memory or mock transport for testing.
 - Document the message format used for moves and session events.
 
-## Backend Team
+## Backend Team - Team Hambuger
 
 Package: `src/main/java/com/ccs/chess/backend`
 
