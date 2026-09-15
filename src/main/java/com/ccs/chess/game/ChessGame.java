@@ -4,6 +4,7 @@ import com.ccs.chess.model.Board;
 
 /**
  * Entry point for game orchestration. Rule enforcement will be added here.
+ * this folder is for team rene baterbonia
  */
 public final class ChessGame {
     private final Board board;
